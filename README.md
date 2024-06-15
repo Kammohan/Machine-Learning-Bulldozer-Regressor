@@ -19,7 +19,7 @@ This project leverages historical sales data of bulldozers sold at auctions, alo
 The project uses data from the "Blue Book for Bulldozers" competition, which includes various attributes of bulldozers such as model type, year of manufacture, usage hours, and many others. The dataset's primary aim is to predict the auction sale price of a bulldozer.
 
 ## Model Training
-The model employs the `RandomForestRegressor` from scikit-learn, with parameters optimized using techniques like `GridSearchCV` to enhance performance.
+The model employs the `RandomForestRegressor` from scikit-learn, with parameters optimized using techniques like `RandomSearchCV` to enhance performance.
 
 ## Evaluation
 The model's performance is evaluated using metrics such as MSLE, R² score, and MAE, which help quantify prediction accuracy and error margins. Additionally, feature importance graphs provide insights into which attributes are most influential in determining bulldozer prices.
